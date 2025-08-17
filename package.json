@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/google": "^2.0.3",
+    "@ai-sdk/openai": "^1.3.24",
+    "@ai-sdk/react": "^1.2.12",
     "@carlos8a/react-whatsapp-floating-button": "^1.1.5",
     "@google/generative-ai": "^0.24.1",
     "@hookform/resolvers": "^3.9.1",
@@ -76,7 +79,8 @@
     "swr": "^2.3.4",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
-    "vaul": "^0.9.6"
+    "vaul": "^0.9.6",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@sanity/structure": "^2.36.2",
